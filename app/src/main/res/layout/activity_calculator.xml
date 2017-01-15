@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_calculator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.cody.cody.datastructuredemo.stack.CalculatorActivity"
+    >
+
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="#212121"
+        android:gravity="bottom|right"
+        android:padding="10dp"
+        android:maxLines="1"
+        android:textColor="@android:color/white"
+        android:textSize="68sp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:id="@+id/clear"
+            style="@style/bt_ex_style2"
+            android:text="Ac"
+            />
+
+        <Button
+            android:id="@+id/neg"
+            style="@style/bt_ex_style2"
+            android:text="+/-"
+            />
+
+
+        <Button
+            android:id="@+id/percent"
+            style="@style/bt_ex_style2"
+            android:text="%"
+
+            />
+
+        <Button
+            android:id="@+id/divide"
+
+            style="@style/bt_ex_style1"
+            android:text="/"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <Button
+            android:id="@+id/num_7"
+            style="@style/bt_ex_style"
+            android:text="7"
+            />
+
+        <Button
+            android:id="@+id/num_8"
+            android:text="8"
+            style="@style/bt_ex_style"
+            />
+
+
+        <Button
+
+            android:id="@+id/num_9"
+            style="@style/bt_ex_style"
+            android:text="9"
+
+            />
+
+        <Button
+            android:id="@+id/multiply"
+            android:text="*"
+            style="@style/bt_ex_style1"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <Button
+
+            android:id="@+id/num_4"
+            style="@style/bt_ex_style"
+            android:text="4"
+            />
+
+        <Button
+            android:id="@+id/num_5"
+            android:text="5"
+            style="@style/bt_ex_style"
+            />
+
+
+        <Button
+            android:id="@+id/num_6"
+            style="@style/bt_ex_style"
+            android:text="6"
+
+            />
+
+        <Button
+            android:id="@+id/subtract"
+            style="@style/bt_ex_style1"
+            android:text="-"
+
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <Button
+
+            android:id="@+id/num_1"
+            style="@style/bt_ex_style"
+            android:text="1"
+
+            />
+
+        <Button
+            android:id="@+id/num_2"
+            style="@style/bt_ex_style"
+            android:text="2"
+
+            />
+
+
+        <Button
+            android:id="@+id/num_3"
+            style="@style/bt_ex_style"
+            android:text="3"
+
+            />
+
+        <Button
+            android:id="@+id/plus"
+            style="@style/bt_ex_style1"
+            android:text="+"
+
+
+            />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+        <Button
+
+            android:id="@+id/num_0"
+            android:layout_weight="2"
+            android:text="0"
+            style="@style/bt_ex_style"
+            />
+
+
+        <Button
+            android:id="@+id/dot"
+            style="@style/bt_ex_style"
+            android:text="."
+
+            />
+
+        <Button
+            android:id="@+id/equal"
+            android:text="="
+            style="@style/bt_ex_style1"
+            />
+
+    </LinearLayout>
+</LinearLayout>
